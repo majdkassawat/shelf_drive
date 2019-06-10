@@ -1,0 +1,6 @@
+<launch>
+   	<include file="$(find astra_launch)/launch/astra.launch" />
+	<include file="$(find shelf_drive)/launch/aruco.launch" />
+	<node name="shelf_drive" pkg="shelf_drive" type="shelf_drive.py" />
+
+</launch>
